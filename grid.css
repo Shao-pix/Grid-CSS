@@ -43,9 +43,7 @@ row::before, row::after{
 Screen Ipad landscape / portrait
  */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    [class*="col-"]{
-        background-color: red;
-    }
+
     .col-m-1{
         flex: 0 0 100%;
     }
@@ -88,10 +86,6 @@ Screen Ipad landscape / portrait
 Desktops
  */
 @media only screen and (min-width : 1224px){
-
-    [class*="col-"]{
-        background-color: cornflowerblue;
-    }
     .col-l-1{
         min-width: 100%;
     }
